@@ -12,6 +12,26 @@ Ce projet a pour but de :
 4- Optimiser les groupes d'étudiants grâce à du clustering
 5- Créer un dashboard interactif sous Streamlit pour visualiser et explorer ces résultats
 
+
+📁 Structure du projet:
+
+.
+├── CLUSTERING/
+│   └── Scripts et analyses pour segmenter les étudiants en groupes
+├── Corelation/
+│   └── Étude des corrélations entre présence et réussite académique
+├── Dashbord/
+│   └── Code du dashboard interactif Streamlit
+├── Prédiction du décrochage/
+│   └── Modèles pour prédire les risques de décrochage scolaire
+├── Prévision d’absentéisme/
+│   └── Modèles pour anticiper les absences à venir
+├── l’analyse de la corrélation présenceréussite/
+│   └── Scripts détaillés d’analyse des liens entre assiduité et performances
+├── README.md
+└── donnees_projet_emargement.xlsx (données source)
+
+
 📂 Contenu du dépôt:
 
 /Dashbord/ → Contient le fichier dashboard.py (application Streamlit)
@@ -22,22 +42,19 @@ coeffs_decrochage.csv → Résultats régression logistique (décrochage)
 
 importances_rf.csv → Importances Random Forest (absentéisme)
 
-🚀 Comment exécuter le dashboard ?
+⚙️ Lancer le projet localement
+1️ Cloner le dépôt :
 
-Prérequis :
+git clone https://github.com/Ryadh38/projet-emargement.git
 
-Python 3.10 ou supérieur
+2️ Installer les dépendances :
 
-Installer les packages nécessaires :
+pip install -r requirements.txt
 
-pip install streamlit pandas matplotlib numpy
-
-Lancer l’application :
+3️ Lancer le dashboard Streamlit :
 
 cd Dashbord
-streamlit run dashboard.py
-
-Une URL locale s’affichera (par ex. http://localhost:8501) → ouvrir dans le navigateur.
+streamlit run dashbord.py
 
 🖼 Captures du dashboard:
 🔹 Acceuil:
@@ -45,6 +62,8 @@ Une URL locale s’affichera (par ex. http://localhost:8501) → ouvrir dans le 
 
 
 🔹 Page Décrochage scolaire
+
+
 <img width="956" alt="Décrochage scolaire" src="https://github.com/user-attachments/assets/333f26fd-229f-4ff6-8b60-91f1a12a36e6" />
 
 
@@ -60,7 +79,10 @@ Une URL locale s’affichera (par ex. http://localhost:8501) → ouvrir dans le 
 <img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />
 
 🔹 Clustering & Profils
+
 <img width="959" alt="Clustering1" src="https://github.com/user-attachments/assets/8bb8746b-7ba7-4e3a-b0ec-2c08bd53d053" />
+
+
 <img width="959" alt="Clustering2" src="https://github.com/user-attachments/assets/4d329cc6-91bf-409a-918a-812e93cb1dbd" />
 
 
@@ -103,11 +125,6 @@ Visualisation : Barres, radar charts, tableaux comparatifs par groupe.
 
 Le projet a été structuré en sprints :
 
-Sprint
-
-Objectif
-
-Avancement
 
 Sprint 1
 
@@ -136,7 +153,15 @@ Développement du dashboard Streamlit
 Sprint 5
 
 Documentation & finalisation GitHub
+📘 Description des modules:
 
+1-Prédiction du décrochage	Utilisation de régression logistique pour identifier les étudiants à risque selon leur assiduité et leurs résultats.
+
+2-Prévision d’absentéisme	Modèles Random Forest pour anticiper les absences et comprendre les facteurs principaux.
+
+3-Corrélation présence/réussite	Étude de la relation entre présence en cours et performances académiques (notes aux examens).
+
+4- Clustering	Regroupement des étudiants selon leurs profils d’assiduité, de performance et de comportement pour identifier des segments homogènes.
 
 🔗 Liens utiles
 
