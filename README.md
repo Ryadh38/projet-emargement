@@ -1,105 +1,105 @@
-📊 Projet : Analyse Prédictive d'Émargement et Réussite Étudiante
+📊 Projet : Analyse Prédictive d'Émargement et Réussite Étudiante. 
 
-Auteur : Ryadh38Année : 2024-2025
+Auteur : Ryadh38Année : 2024-2025. 
 
-🌟 Objectif du projet
+🌟 Objectif du projet:  
 
 Ce projet a pour but de :
 
-1- Analyser les données d'émargement (présence/absence, retards, absences justifiées/injustifiées)
-2- Prédire le risque de décrochage scolaire
-3- Identifier les facteurs d'absentéisme
-4- Optimiser les groupes d'étudiants grâce à du clustering
-5- Créer un dashboard interactif sous Streamlit pour visualiser et explorer ces résultats
+1- Analyser les données d'émargement (présence/absence, retards, absences justifiées/injustifiées). 
+2- Prédire le risque de décrochage scolaire. 
+3- Identifier les facteurs d'absentéisme. 
+4- Optimiser les groupes d'étudiants grâce à du clustering. 
+5- Créer un dashboard interactif sous Streamlit pour visualiser et explorer ces résultats. 
 
 
 📁 Structure du projet:
 
 .
 ├── CLUSTERING/
-│   └── Scripts et analyses pour segmenter les étudiants en groupes
+│   └── Scripts et analyses pour segmenter les étudiants en groupes. 
 ├── Corelation/
-│   └── Étude des corrélations entre présence et réussite académique
+│   └── Étude des corrélations entre présence et réussite académique. 
 ├── Dashbord/
-│   └── Code du dashboard interactif Streamlit
+│   └── Code du dashboard interactif Streamlit. 
 ├── Prédiction du décrochage/
-│   └── Modèles pour prédire les risques de décrochage scolaire
+│   └── Modèles pour prédire les risques de décrochage scolaire. 
 ├── Prévision d’absentéisme/
-│   └── Modèles pour anticiper les absences à venir
+│   └── Modèles pour anticiper les absences à venir. 
 ├── l’analyse de la corrélation présenceréussite/
-│   └── Scripts détaillés d’analyse des liens entre assiduité et performances
+│   └── Scripts détaillés d’analyse des liens entre assiduité et performances. 
 ├── README.md
-└── donnees_projet_emargement.xlsx (données source)
+└── donnees_projet_emargement.xlsx (données source). 
 
 
 📂 Contenu du dépôt:
 
-/Dashbord/ → Contient le fichier dashboard.py (application Streamlit)
+/Dashbord/ → Contient le fichier dashboard.py (application Streamlit). 
 
-stats.csv → Données agrégées par étudiant
+stats.csv → Données agrégées par étudiant. 
 
-coeffs_decrochage.csv → Résultats régression logistique (décrochage)
+coeffs_decrochage.csv → Résultats régression logistique (décrochage). 
 
-importances_rf.csv → Importances Random Forest (absentéisme)
+importances_rf.csv → Importances Random Forest (absentéisme). 
 
 ⚙️ Lancer le projet localement
 1️ Cloner le dépôt :
 
-git clone https://github.com/Ryadh38/projet-emargement.git
+git clone https://github.com/Ryadh38/projet-emargement.git. 
 
 2️ Installer les dépendances :
 
-pip install -r requirements.txt
+pip install -r requirements.txt. 
 
 3️ Lancer le dashboard Streamlit :
 
-cd Dashbord
-streamlit run dashbord.py
+cd Dashbord. 
+streamlit run dashbord.py. 
 
 🖼 Captures du dashboard:
 🔹 Acceuil:
-<img width="956" alt="Acceuil" src="https://github.com/user-attachments/assets/9e188851-7a76-4b43-a8d9-0a37483179c1" />
+<img width="956" alt="Acceuil" src="https://github.com/user-attachments/assets/9e188851-7a76-4b43-a8d9-0a37483179c1" />. 
 
 
-🔹 Page Décrochage scolaire
+🔹 Page Décrochage scolaire:
 
 
-<img width="956" alt="Décrochage scolaire" src="https://github.com/user-attachments/assets/333f26fd-229f-4ff6-8b60-91f1a12a36e6" />
+<img width="956" alt="Décrochage scolaire" src="https://github.com/user-attachments/assets/333f26fd-229f-4ff6-8b60-91f1a12a36e6" />.
 
 
-🔹 Page Absentéisme
+🔹 Page Absentéisme:
 
 
-<img width="956" alt="Absentéisme" src="https://github.com/user-attachments/assets/b68f7586-e1ee-4020-bb70-f7be794a3c39" />
+<img width="956" alt="Absentéisme" src="https://github.com/user-attachments/assets/b68f7586-e1ee-4020-bb70-f7be794a3c39" />. 
 
-🔹 Corrélation Présence vs Réussite
+🔹 Corrélation Présence vs Réussite:
 
-![graphe présence-réussite](https://github.com/user-attachments/assets/0f25fa88-58d2-4d37-a704-724c1f56491f)
+![graphe présence-réussite](https://github.com/user-attachments/assets/0f25fa88-58d2-4d37-a704-724c1f56491f). 
 
-<img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />
+<img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />. 
 
-🔹 Clustering & Profils
+🔹 Clustering & Profils:
 
-<img width="959" alt="Clustering1" src="https://github.com/user-attachments/assets/8bb8746b-7ba7-4e3a-b0ec-2c08bd53d053" />
+<img width="959" alt="Clustering1" src="https://github.com/user-attachments/assets/8bb8746b-7ba7-4e3a-b0ec-2c08bd53d053" />. 
 
 
-<img width="959" alt="Clustering2" src="https://github.com/user-attachments/assets/4d329cc6-91bf-409a-918a-812e93cb1dbd" />
+<img width="959" alt="Clustering2" src="https://github.com/user-attachments/assets/4d329cc6-91bf-409a-918a-812e93cb1dbd" />. 
 
 
 ![Clustering-radarChartDesGroupes](https://github.com/user-attachments/assets/836b2dd7-5e9b-469a-b999-c46aa7f66d1a)
-<img width="959" alt="interpretation-RadarChart" src="https://github.com/user-attachments/assets/5cbbfb50-f5fa-4b47-a118-954e6802befb" />
+<img width="959" alt="interpretation-RadarChart" src="https://github.com/user-attachments/assets/5cbbfb50-f5fa-4b47-a118-954e6802befb" />. 
 
 📊 Explications des sections:
 
-1️⃣ Décrochage scolaire
+1️⃣ Décrochage scolaire:
 
-Méthode : Régression logistique
+Méthode : Régression logistique. 
 
-But : Prédire les étudiants à risque selon le taux de présence, notes, retards, etc.
+But : Prédire les étudiants à risque selon le taux de présence, notes, retards, etc. 
 
 Visualisation : Importance des variables → quelles variables augmentent ou diminuent le risque.
 
-2️⃣ Absentéisme
+2️⃣ Absentéisme:
 
 Méthode : Random Forest
 
@@ -107,52 +107,53 @@ But : Identifier les principaux facteurs qui expliquent les absences.
 
 Visualisation : Graphique d’importance des features.
 
-3️⃣ Corrélation présence/réussite
+3️⃣ Corrélation présence/réussite:
 
 But : Visualiser la relation entre la présence moyenne et les résultats académiques.
 
 Visualisation : Scatter plot coloré par groupe.
 
-4️⃣ Clustering
+4️⃣ Clustering:
 
-Méthode : KMeans (clustering non supervisé)
+Méthode : KMeans (clustering non supervisé). 
 
 But : Grouper les étudiants selon leurs profils.
 
 Visualisation : Barres, radar charts, tableaux comparatifs par groupe.
 
-🛠 Méthodologie agile
+
 
 Le projet a été structuré en sprints :
 
 
-Sprint 1
+Sprint 1:
 
-Nettoyage & préparation des données
-
-✅ Terminé
-
-Sprint 2
-
-Modèles prédictifs (décrochage, absentéisme)
+Nettoyage & préparation des données.
 
 ✅ Terminé
 
-Sprint 3
+Sprint 2:
 
-Clustering et analyse des groupes
+Modèles prédictifs (décrochage, absentéisme).
+
+✅ Terminé
+
+Sprint 3:
+
+Clustering et analyse des groupes.
 
 ✅ Terminé
 
 Sprint 4
 
-Développement du dashboard Streamlit
+Développement du dashboard Streamlit.
 
 ✅ Terminé
 
 Sprint 5
 
-Documentation & finalisation GitHub
+Documentation & finalisation GitHub.
+
 📘 Description des modules:
 
 1-Prédiction du décrochage	Utilisation de régression logistique pour identifier les étudiants à risque selon leur assiduité et leurs résultats.
@@ -165,9 +166,9 @@ Documentation & finalisation GitHub
 
 🔗 Liens utiles
 
-Repo GitHub : https://github.com/Ryadh38/projet-emargement
+Repo GitHub : https://github.com/Ryadh38/projet-emargement.
 
-Streamlit : https://streamlit.io/
+Streamlit : https://streamlit.io/.
 
 
 Auteur :Belkhamsa Ryadh
