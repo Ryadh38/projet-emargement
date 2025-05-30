@@ -5,6 +5,7 @@ Auteur : Ryadh38Année : 2024-2025
 🌟 Objectif du projet
 
 Ce projet a pour but de :
+
 1- Analyser les données d'émargement (présence/absence, retards, absences justifiées/injustifiées)
 2- Prédire le risque de décrochage scolaire
 3- Identifier les facteurs d'absentéisme
@@ -38,27 +39,35 @@ streamlit run dashboard.py
 
 Une URL locale s’affichera (par ex. http://localhost:8501) → ouvrir dans le navigateur.
 
-🖼 Captures du dashboard
+🖼 Captures du dashboard:
+🔹 Acceuil:
+<img width="956" alt="Acceuil" src="https://github.com/user-attachments/assets/9e188851-7a76-4b43-a8d9-0a37483179c1" />
+
 
 🔹 Page Décrochage scolaire
-
+<img width="956" alt="Décrochage scolaire" src="https://github.com/user-attachments/assets/333f26fd-229f-4ff6-8b60-91f1a12a36e6" />
 
 
 🔹 Page Absentéisme
 
 
+<img width="956" alt="Absentéisme" src="https://github.com/user-attachments/assets/b68f7586-e1ee-4020-bb70-f7be794a3c39" />
 
 🔹 Corrélation Présence vs Réussite
 
+![graphe présence-réussite](https://github.com/user-attachments/assets/0f25fa88-58d2-4d37-a704-724c1f56491f)
 
+<img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />
 
 🔹 Clustering & Profils
+<img width="959" alt="Clustering1" src="https://github.com/user-attachments/assets/8bb8746b-7ba7-4e3a-b0ec-2c08bd53d053" />
+<img width="959" alt="Clustering2" src="https://github.com/user-attachments/assets/4d329cc6-91bf-409a-918a-812e93cb1dbd" />
 
 
+![Clustering-radarChartDesGroupes](https://github.com/user-attachments/assets/836b2dd7-5e9b-469a-b999-c46aa7f66d1a)
+<img width="959" alt="interpretation-RadarChart" src="https://github.com/user-attachments/assets/5cbbfb50-f5fa-4b47-a118-954e6802befb" />
 
-(⚠ Assure-toi d’ajouter tes propres captures dans un dossier /captures/ avant de pousser sur GitHub)
-
-📊 Explications des sections
+📊 Explications des sections:
 
 1️⃣ Décrochage scolaire
 
@@ -128,7 +137,6 @@ Sprint 5
 
 Documentation & finalisation GitHub
 
-🔄 En cours
 
 🔗 Liens utiles
 
