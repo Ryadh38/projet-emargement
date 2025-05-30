@@ -54,6 +54,8 @@ Ce projet a pour but de :
 
 📂 Contenu du dépôt:
 
+
+
 /Dashbord/ → Contient le fichier dashboard.py (application Streamlit). 
 
 
@@ -65,22 +67,28 @@ coeffs_decrochage.csv → Résultats régression logistique (décrochage).
 
 importances_rf.csv → Importances Random Forest (absentéisme). 
 
+
+
 ⚙️ Lancer le projet localement
 
-1️ Cloner le dépôt :
+
+
+# Cloner le dépôt :
 
 git clone https://github.com/Ryadh38/projet-emargement.git. 
 
-2️ Installer les dépendances :
+## Installer les dépendances :
 
 pip install -r requirements.txt. 
 
-3️ Lancer le dashboard Streamlit :
+### Lancer le dashboard Streamlit :
 
 cd Dashbord. 
 streamlit run dashbord.py. 
 
 🖼 Captures du dashboard:
+
+
 🔹 Acceuil:
 
 
