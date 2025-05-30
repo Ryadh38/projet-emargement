@@ -1,8 +1,8 @@
-📊 Projet : Analyse Prédictive d'Émargement et Réussite Étudiante. 
+# Projet : Analyse Prédictive d'Émargement et Réussite Étudiante. 
 
 Auteur : Ryadh38Année : 2024-2025. 
 
-🌟 Objectif du projet:  
+## Objectif du projet:  
 
 Ce projet a pour but de :
 
@@ -21,7 +21,7 @@ Ce projet a pour but de :
 5- Créer un dashboard interactif sous Streamlit pour visualiser et explorer ces résultats. 
 
 
-📁 Structure du projet:
+## Structure du projet:
 
 .
 ├── CLUSTERING/
@@ -52,7 +52,7 @@ Ce projet a pour but de :
 └── donnees_projet_emargement.xlsx (données source). 
 
 
-📂 Contenu du dépôt:
+## Contenu du dépôt:
 
 
 
@@ -69,15 +69,15 @@ importances_rf.csv → Importances Random Forest (absentéisme).
 
 
 
-⚙️ Lancer le projet localement
+## Lancer le projet localement
 
 
 
-# Cloner le dépôt :
+### Cloner le dépôt :
 
 git clone https://github.com/Ryadh38/projet-emargement.git. 
 
-## Installer les dépendances :
+### Installer les dépendances :
 
 pip install -r requirements.txt. 
 
@@ -86,28 +86,28 @@ pip install -r requirements.txt.
 cd Dashbord. 
 streamlit run dashbord.py. 
 
-🖼 Captures du dashboard:
+## Captures du dashboard:
 
 
-🔹 Acceuil:
+### Acceuil:
 
 
 <img width="956" alt="Acceuil" src="https://github.com/user-attachments/assets/9e188851-7a76-4b43-a8d9-0a37483179c1" />. 
 
 
-🔹 Page Décrochage scolaire:
+### Page Décrochage scolaire:
 
 
 <img width="956" alt="Décrochage scolaire" src="https://github.com/user-attachments/assets/333f26fd-229f-4ff6-8b60-91f1a12a36e6" />.
 
 
-🔹 Page Absentéisme:
+### Page Absentéisme:
 
 
 <img width="956" alt="Absentéisme" src="https://github.com/user-attachments/assets/b68f7586-e1ee-4020-bb70-f7be794a3c39" />. 
 
 
-🔹 Corrélation Présence vs Réussite:
+### Corrélation Présence vs Réussite:
 
 ![graphe présence-réussite](https://github.com/user-attachments/assets/0f25fa88-58d2-4d37-a704-724c1f56491f). 
 
@@ -117,7 +117,7 @@ streamlit run dashbord.py.
 
  
 
-🔹 Clustering & Profils:
+### Clustering & Profils:
 
 
 
@@ -133,9 +133,9 @@ streamlit run dashbord.py.
 
 
 
-📊 Explications des sections:
+## Explications des sections:
 
-1️⃣ Décrochage scolaire:
+### Décrochage scolaire:
 
 Méthode : Régression logistique. 
 
@@ -143,7 +143,7 @@ But : Prédire les étudiants à risque selon le taux de présence, notes, retar
 
 Visualisation : Importance des variables → quelles variables augmentent ou diminuent le risque.
 
-2️⃣ Absentéisme:
+### Absentéisme:
 
 Méthode : Random Forest
 
@@ -151,13 +151,13 @@ But : Identifier les principaux facteurs qui expliquent les absences.
 
 Visualisation : Graphique d’importance des features.
 
-3️⃣ Corrélation présence/réussite:
+### Corrélation présence/réussite:
 
 But : Visualiser la relation entre la présence moyenne et les résultats académiques.
 
 Visualisation : Scatter plot coloré par groupe.
 
-4️⃣ Clustering:
+### Clustering:
 
 Méthode : KMeans (clustering non supervisé). 
 
@@ -167,38 +167,38 @@ Visualisation : Barres, radar charts, tableaux comparatifs par groupe.
 
 
 
-Le projet a été structuré en sprints :
+## Le projet a été structuré en sprints :
 
 
-Sprint 1:
+### Sprint 1:
 
 Nettoyage & préparation des données.
 
 ✅ Terminé
 
-Sprint 2:
+### Sprint 2:
 
 Modèles prédictifs (décrochage, absentéisme).
 
 ✅ Terminé
 
-Sprint 3:
+### Sprint 3:
 
 Clustering et analyse des groupes.
 
 ✅ Terminé
 
-Sprint 4
+### Sprint 4
 
 Développement du dashboard Streamlit.
 
 ✅ Terminé
 
-Sprint 5
+### Sprint 5
 
 Documentation & finalisation GitHub.
 
-📘 Description des modules:
+## Description des modules:
 
 1-Prédiction du décrochage	Utilisation de régression logistique pour identifier les étudiants à risque selon leur assiduité et leurs résultats.
 
@@ -208,13 +208,16 @@ Documentation & finalisation GitHub.
 
 4- Clustering	Regroupement des étudiants selon leurs profils d’assiduité, de performance et de comportement pour identifier des segments homogènes.
 
-🔗 Liens utiles
+## Liens utiles
 
 Repo GitHub : https://github.com/Ryadh38/projet-emargement.
 
 Streamlit : https://streamlit.io/.
-🛠 Outils utilisés par partie
-1️⃣ Prédiction du décrochage scolaire
+
+
+## Outils utilisés par partie:
+
+### Prédiction du décrochage scolaire
 Outil principal :
 
 Régression logistique (via scikit-learn)
@@ -225,7 +228,7 @@ pandas → pour gérer les données
 
 matplotlib → pour visualiser les coefficients
 
-2️⃣ Prévision d’absentéisme
+### Prévision d’absentéisme
 Outil principal :
 
 Random Forest Classifier (scikit-learn)
@@ -236,8 +239,9 @@ pandas → pour les données
 
 matplotlib → pour tracer l’importance des variables
 
-3️⃣ Corrélation présence / réussite
-Outil principal :
+### Corrélation présence / réussite
+
+ Outil principal :
 
 Analyse visuelle par scatter plot (matplotlib)
 
@@ -247,7 +251,7 @@ pandas → pour calculer les moyennes
 
 Optionnellement numpy → pour calculer des corrélations numériques
 
-4️⃣ Clustering (optimisation des groupes)
+ ### Clustering (optimisation des groupes)
 Outil principal :
 
 KMeans Clustering (scikit-learn)
@@ -260,13 +264,13 @@ matplotlib → pour barplots, radar charts
 
 pandas → pour grouper et résumer les stats
 
-5️⃣ Dashboard interactif/
+### Dashboard interactif/
 
 Outil principal :
 
 Streamlit → pour construire le tableau de bord web interactif
 
-💡 Résumé général des librairies Python utilisées :
+## Résumé général des librairies Python utilisées :
 
 pandas
 
