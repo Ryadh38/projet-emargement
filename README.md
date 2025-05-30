@@ -205,6 +205,72 @@ Documentation & finalisation GitHub.
 Repo GitHub : https://github.com/Ryadh38/projet-emargement.
 
 Streamlit : https://streamlit.io/.
+🛠 Outils utilisés par partie
+1️⃣ Prédiction du décrochage scolaire
+Outil principal :
+
+Régression logistique (via scikit-learn)
+
+Autres :
+
+pandas → pour gérer les données
+
+matplotlib → pour visualiser les coefficients
+
+2️⃣ Prévision d’absentéisme
+Outil principal :
+
+Random Forest Classifier (scikit-learn)
+
+Autres :
+
+pandas → pour les données
+
+matplotlib → pour tracer l’importance des variables
+
+3️⃣ Corrélation présence / réussite
+Outil principal :
+
+Analyse visuelle par scatter plot (matplotlib)
+
+Autres :
+
+pandas → pour calculer les moyennes
+
+Optionnellement numpy → pour calculer des corrélations numériques
+
+4️⃣ Clustering (optimisation des groupes)
+Outil principal :
+
+KMeans Clustering (scikit-learn)
+
+Autres :
+
+StandardScaler (scikit-learn) → pour normaliser les données
+
+matplotlib → pour barplots, radar charts
+
+pandas → pour grouper et résumer les stats
+
+5️⃣ Dashboard interactif/
+
+Outil principal :
+
+Streamlit → pour construire le tableau de bord web interactif
+
+💡 Résumé général des librairies Python utilisées :
+
+pandas
+
+numpy
+
+scikit-learn
+
+matplotlib
+
+streamlit
+
+
 
 
 Auteur :Belkhamsa Ryadh
