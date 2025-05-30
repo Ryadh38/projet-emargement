@@ -7,9 +7,17 @@ Auteur : Ryadh38Année : 2024-2025.
 Ce projet a pour but de :
 
 1- Analyser les données d'émargement (présence/absence, retards, absences justifiées/injustifiées). 
+
+
 2- Prédire le risque de décrochage scolaire. 
+
+
 3- Identifier les facteurs d'absentéisme. 
+
+
 4- Optimiser les groupes d'étudiants grâce à du clustering. 
+
+
 5- Créer un dashboard interactif sous Streamlit pour visualiser et explorer ces résultats. 
 
 
@@ -22,14 +30,24 @@ Ce projet a pour but de :
 
 ├── Corelation/
 │   └── Étude des corrélations entre présence et réussite académique. 
+
+
 ├── Dashbord/
 │   └── Code du dashboard interactif Streamlit. 
+
+
 ├── Prédiction du décrochage/
 │   └── Modèles pour prédire les risques de décrochage scolaire. 
+
+
 ├── Prévision d’absentéisme/
 │   └── Modèles pour anticiper les absences à venir. 
+
+
 ├── l’analyse de la corrélation présenceréussite/
 │   └── Scripts détaillés d’analyse des liens entre assiduité et performances. 
+
+
 ├── README.md
 └── donnees_projet_emargement.xlsx (données source). 
 
@@ -38,13 +56,17 @@ Ce projet a pour but de :
 
 /Dashbord/ → Contient le fichier dashboard.py (application Streamlit). 
 
+
 stats.csv → Données agrégées par étudiant. 
 
+
 coeffs_decrochage.csv → Résultats régression logistique (décrochage). 
+
 
 importances_rf.csv → Importances Random Forest (absentéisme). 
 
 ⚙️ Lancer le projet localement
+
 1️ Cloner le dépôt :
 
 git clone https://github.com/Ryadh38/projet-emargement.git. 
@@ -60,6 +82,8 @@ streamlit run dashbord.py.
 
 🖼 Captures du dashboard:
 🔹 Acceuil:
+
+
 <img width="956" alt="Acceuil" src="https://github.com/user-attachments/assets/9e188851-7a76-4b43-a8d9-0a37483179c1" />. 
 
 
@@ -74,15 +98,23 @@ streamlit run dashbord.py.
 
 <img width="956" alt="Absentéisme" src="https://github.com/user-attachments/assets/b68f7586-e1ee-4020-bb70-f7be794a3c39" />. 
 
+
 🔹 Corrélation Présence vs Réussite:
 
 ![graphe présence-réussite](https://github.com/user-attachments/assets/0f25fa88-58d2-4d37-a704-724c1f56491f). 
 
-<img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />. 
+
+
+<img width="957" alt="Corrélation présence-réussite" src="https://github.com/user-attachments/assets/fa716ef9-fa51-4808-8bbe-a447b12a4557" />.
+
+ 
 
 🔹 Clustering & Profils:
 
+
+
 <img width="959" alt="Clustering1" src="https://github.com/user-attachments/assets/8bb8746b-7ba7-4e3a-b0ec-2c08bd53d053" />. 
+
 
 
 <img width="959" alt="Clustering2" src="https://github.com/user-attachments/assets/4d329cc6-91bf-409a-918a-812e93cb1dbd" />. 
@@ -90,6 +122,8 @@ streamlit run dashbord.py.
 
 ![Clustering-radarChartDesGroupes](https://github.com/user-attachments/assets/836b2dd7-5e9b-469a-b999-c46aa7f66d1a)
 <img width="959" alt="interpretation-RadarChart" src="https://github.com/user-attachments/assets/5cbbfb50-f5fa-4b47-a118-954e6802befb" />. 
+
+
 
 📊 Explications des sections:
 
