@@ -17,7 +17,7 @@ Ce projet a pour but de :
 
 .
 ├── CLUSTERING/
-│   └── Scripts et analyses pour segmenter les étudiants en groupes. 
+│   └── Scripts et analyses pour segmenter les étudiants en groupes. ␣␣ 
 ├── Corelation/
 │   └── Étude des corrélations entre présence et réussite académique. 
 ├── Dashbord/
